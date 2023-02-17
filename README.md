@@ -29,18 +29,34 @@ The input lies in the range (these voltages can be found by voltage divider calc
 
 ## FLASH ADC Circuit and its parts
 
-# avsdcmp IP in cadence
+# avsdcmp IP in cadence (Schematic)
+
+![vsdcamp](https://user-images.githubusercontent.com/110079763/219593517-cf0d3b06-c150-493f-ac5f-3bfcdd33c1ea.png)
 
 # Symbol of avsdcmp
 
 # FLASH ADC Circuit
 
+![flash ADC](https://user-images.githubusercontent.com/110079763/219593222-1179c9e0-0a24-48d9-beff-e0d2f4020c4e.png)
+
+![flash ADC1](https://user-images.githubusercontent.com/110079763/219593268-b121345c-89ae-40a7-acfd-88bfa46ed7f8.png)
+
 # Output Graphs
+
+# For comparator
+
+![Screenshot from 2023-02-17 02-51-50](https://user-images.githubusercontent.com/110079763/219593405-0426fc63-c571-4b02-99c0-5e59b6a50953.png)
 
 ## PIPO (parallel in parallel out)
 
 # D flipflop Schematic
 
+![Screenshot from 2023-02-16 14-11-13](https://user-images.githubusercontent.com/110079763/219593075-f04f1cba-3db7-4a38-a4e7-eefa5ecab4fa.png)
+
 # PIPO Schematic
 
+![Screenshot from 2023-02-16 14-09-33](https://user-images.githubusercontent.com/110079763/219592872-5b1181ea-f77d-40d1-8d96-b5546b561ead.png)
+
 # Output for 1 D Flip FLop
+
+![Screenshot from 2023-02-16 12-01-59](https://user-images.githubusercontent.com/110079763/219592929-9941336b-de69-4585-9475-6434666f687f.png)
