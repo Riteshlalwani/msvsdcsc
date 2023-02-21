@@ -43,12 +43,15 @@ The input lies in the range (these voltages can be found by voltage divider calc
 
 # Output Graphs
 
+![Screenshot from 2023-02-20 14-36-41](https://user-images.githubusercontent.com/110079763/220255798-33b516a1-d923-437e-a4d1-78e04f78d2ae.png)
+
 # For comparator
 
 ![Screenshot from 2023-02-17 02-51-50](https://user-images.githubusercontent.com/110079763/219593405-0426fc63-c571-4b02-99c0-5e59b6a50953.png)
 
 ## PIPO (parallel in parallel out)
-
+![pipo](https://user-images.githubusercontent.com/110079763/220256234-422ee408-9109-4678-9ef4-4e260fc84fe8.png)
+The LCD interfacing circuit is a circuit designed in verilog to transfer the input on its terminal to a LCD (16x2 as shown in the figure) on every register select operation.
 # D flipflop Schematic
 
 ![Screenshot from 2023-02-16 14-11-13](https://user-images.githubusercontent.com/110079763/219593075-f04f1cba-3db7-4a38-a4e7-eefa5ecab4fa.png)
@@ -60,3 +63,8 @@ The input lies in the range (these voltages can be found by voltage divider calc
 # Output for 1 D Flip FLop
 
 ![Screenshot from 2023-02-16 12-01-59](https://user-images.githubusercontent.com/110079763/219592929-9941336b-de69-4585-9475-6434666f687f.png)
+
+# Priority Encoder simulation using verilog code and testbench
+
+![priority encoder output](https://user-images.githubusercontent.com/110079763/220256036-72e8dfcd-876f-4d8e-b60c-962bce23d689.png)
+
