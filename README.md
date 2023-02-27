@@ -64,6 +64,24 @@ The LCD interfacing circuit is a circuit designed in verilog to transfer the inp
 
 ![Screenshot from 2023-02-16 12-01-59](https://user-images.githubusercontent.com/110079763/219592929-9941336b-de69-4585-9475-6434666f687f.png)
 
+## Priority Encoder
+
+![priority Encoder](https://user-images.githubusercontent.com/110079763/221664970-0a67aade-86ca-4358-bd37-8c34b8b4d9c5.png)
+
+![logic](https://user-images.githubusercontent.com/110079763/221665277-37dc56bf-17af-4768-9cd1-661bf6d748c9.png)
+
+# Q0 output bit Schematic for 8:3 Priority Encoder
+
+![Screenshot from 2023-02-22 14-37-02](https://user-images.githubusercontent.com/110079763/221664273-e6d4036e-c1a9-45ab-8106-addaa1218cdc.png)
+
+# Complete Circuit Schematic for priority Encoder
+
+![Screenshot from 2023-02-22 15-21-34](https://user-images.githubusercontent.com/110079763/221664349-f0d41a8c-6aa3-4f46-8858-a07181b069d3.png)
+
+# Output(for input I5,I4,I3,I2,I1 = 1 )
+
+![Screenshot from 2023-02-22 15-21-11](https://user-images.githubusercontent.com/110079763/221664644-82764a95-d2c1-48ff-bb44-26f7f0687cfd.png)
+
 # Priority Encoder simulation using verilog code and testbench
 
 ![priority encoder output](https://user-images.githubusercontent.com/110079763/220256036-72e8dfcd-876f-4d8e-b60c-962bce23d689.png)
