@@ -86,3 +86,21 @@ The LCD interfacing circuit is a circuit designed in verilog to transfer the inp
 
 ![priority encoder output](https://user-images.githubusercontent.com/110079763/220256036-72e8dfcd-876f-4d8e-b60c-962bce23d689.png)
 
+## Complete crack sensing Circuit and Simulation results
+
+# Black Box for CSC (7-I/O pins except Power rails )
+
+![Screenshot from 2023-02-27 11-52-27](https://user-images.githubusercontent.com/110079763/221665930-b21d56f2-1087-4dc3-9550-5e20551d5c54.png)
+
+# Integrated CSC Schematic 
+
+![Screenshot from 2023-02-27 11-30-39](https://user-images.githubusercontent.com/110079763/221666080-05d5643d-636d-4d57-8376-2f9d1afd28af.png)
+
+# Output Graphs (Giving the desired 101 output)
+
+![Screenshot from 2023-02-27 11-51-36](https://user-images.githubusercontent.com/110079763/221666319-4499c481-d760-4ab8-bb9d-18367f28d641.png)
+
+
+
+
+
