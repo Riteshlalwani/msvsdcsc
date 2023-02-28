@@ -111,6 +111,7 @@ The LCD interfacing circuit is a circuit designed in verilog to transfer the inp
 
 - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
 - Madhav Rao, Associate Professor, IIIT Bangalore
+- Kavya Agarwal, Mtech ECE student, International Institute of Information Technology, Bangalore
 
 ```
 # Contact Information
