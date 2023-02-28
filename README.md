@@ -2,7 +2,7 @@
 ## **CRACK SENSING CIRCUIT**
 
 # **_INDEX:_**
-- [The Idea] (https://github.com/Riteshlalwani/msvsdcsc#the-idea)
+- [ The Idea ] (https://github.com/Riteshlalwani/msvsdcsc#the-idea)
 
 ## **The Idea**
 ---
