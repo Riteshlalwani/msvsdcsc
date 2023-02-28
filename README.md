@@ -106,4 +106,19 @@ The LCD interfacing circuit is a circuit designed in verilog to transfer the inp
 ![Screenshot from 2023-02-28 00-34-15](https://user-images.githubusercontent.com/110079763/221763747-0bb58bed-4313-4863-a19a-5424c02276fb.png)
 
 
+## Acknowledgments
 
+
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
+- Madhav Rao, Associate Professor, IIIT Bangalore
+
+```
+# Contact Information
+
+- Ritesh Lalwani, Mtech ECE student, International Institute of Information Technology, Bangalore  ritesh7328@gmail.com
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
+
+```
+# *References*
+
+- https://github.com/krunalbadlani/crack_sensing_circuit
