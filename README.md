@@ -100,7 +100,10 @@ The LCD interfacing circuit is a circuit designed in verilog to transfer the inp
 
 ![Screenshot from 2023-02-27 11-51-36](https://user-images.githubusercontent.com/110079763/221666319-4499c481-d760-4ab8-bb9d-18367f28d641.png)
 
+# Graph of all I/O pins 
 
+
+![Screenshot from 2023-02-28 00-34-15](https://user-images.githubusercontent.com/110079763/221763747-0bb58bed-4313-4863-a19a-5424c02276fb.png)
 
 
 
