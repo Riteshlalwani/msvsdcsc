@@ -2,11 +2,11 @@
 ## **CRACK SENSING CIRCUIT**
 
 
-## **The Idea**
+## **_The Idea_**
 ---
 Any crack in a structure changes the strain profile of the material underneath. In situations like a boiler or a jet engine this can be critical. This strain can be detected using a strain gauge i.e. a device which changes its electrical resistance which change in strain. So if such a variable resistor is placed in a voltage divider/wheatstone bridge we can get different voltage levels for different strains detected. This change in voltage can be sensed by a Mixed signal SoC as discussed in this design.
 
-## **The Implementation**
+## **_The Implementation_**
 ---
 This circuit is implemented using the following 5 stages:-
 
@@ -16,7 +16,7 @@ This circuit is implemented using the following 5 stages:-
 4. A PIPO to send data from the encoder to lcd every clock cycle
 5. LCD interfacing circuit to display the data on a LCD
 
-## **FLASH ADC and PRIORITY ENCODER**
+## **_FLASH ADC and PRIORITY ENCODER_**
 ---
 Also called the parallel A/D converter, this circuit is the simplest to understand. It is formed of a series of comparators, each one comparing the input signal to a unique reference voltage. The comparator outputs connect to the inputs of a priority encoder circuit, which then produces a binary output. The following figure shows a 3-bit flash ADC circuit:
 
@@ -28,7 +28,7 @@ The calculation for eg. an input of 3.70 V with Vref = 5 V:
 
 The input lies in the range (these voltages can be found by voltage divider calculations) 5/8 * Vref and 6/8 * Vref which would make the output of the 5th comparator high which would give the corresponding input to priority encoder which would give the output 101 (5).
 
-## FLASH ADC Circuit and its parts
+## **_FLASH ADC Circuit and its parts_**
 
 # avsdcmp IP in cadence (Schematic)
 
@@ -42,7 +42,7 @@ The input lies in the range (these voltages can be found by voltage divider calc
 
 ![flash ADC1](https://user-images.githubusercontent.com/110079763/219593268-b121345c-89ae-40a7-acfd-88bfa46ed7f8.png)
 
-# Output Graphs
+# **_Output Graphs_**
 
 ![Screenshot from 2023-02-20 14-36-41](https://user-images.githubusercontent.com/110079763/220255798-33b516a1-d923-437e-a4d1-78e04f78d2ae.png)
 
@@ -50,7 +50,7 @@ The input lies in the range (these voltages can be found by voltage divider calc
 
 ![Screenshot from 2023-02-17 02-51-50](https://user-images.githubusercontent.com/110079763/219593405-0426fc63-c571-4b02-99c0-5e59b6a50953.png)
 
-## PIPO (parallel in parallel out)
+## **_PIPO (parallel in parallel out)_**
 ![pipo](https://user-images.githubusercontent.com/110079763/220256234-422ee408-9109-4678-9ef4-4e260fc84fe8.png)
 The LCD interfacing circuit is a circuit designed in verilog to transfer the input on its terminal to a LCD (16x2 as shown in the figure) on every register select operation.
 # D flipflop Schematic
@@ -65,7 +65,7 @@ The LCD interfacing circuit is a circuit designed in verilog to transfer the inp
 
 ![Screenshot from 2023-02-16 12-01-59](https://user-images.githubusercontent.com/110079763/219592929-9941336b-de69-4585-9475-6434666f687f.png)
 
-## Priority Encoder
+## **_Priority Encoder_**
 
 ![priority Encoder](https://user-images.githubusercontent.com/110079763/221664970-0a67aade-86ca-4358-bd37-8c34b8b4d9c5.png)
 
@@ -87,7 +87,7 @@ The LCD interfacing circuit is a circuit designed in verilog to transfer the inp
 
 ![priority encoder output](https://user-images.githubusercontent.com/110079763/220256036-72e8dfcd-876f-4d8e-b60c-962bce23d689.png)
 
-## Complete crack sensing Circuit and Simulation results
+## **_Complete crack sensing Circuit and Simulation results_**
 
 # Black Box for CSC (7-I/O pins except Power rails )
 
@@ -101,7 +101,7 @@ The LCD interfacing circuit is a circuit designed in verilog to transfer the inp
 
 ![Screenshot from 2023-02-27 11-51-36](https://user-images.githubusercontent.com/110079763/221666319-4499c481-d760-4ab8-bb9d-18367f28d641.png)
 
-# Graph of all I/O pins 
+# **_Graph of all I/O pins_** 
 
 
 ![Screenshot from 2023-02-28 00-34-15](https://user-images.githubusercontent.com/110079763/221763747-0bb58bed-4313-4863-a19a-5424c02276fb.png)
