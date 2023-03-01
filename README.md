@@ -208,7 +208,7 @@ This circuit consists of FLASH ADC, made through comparators and resistors, incl
 
 # Output Graphs (Giving the desired 101 output)
 
-![Screenshot from 2023-02-27 11-51-36](https://user-images.githubusercontent.com/110079763/221666319-4499c481-d760-4ab8-bb9d-18367f28d641.png)
+![Screenshot from 2023-03-01 04-55-19](https://user-images.githubusercontent.com/110079763/222179912-54ca819a-5f4a-4911-b758-aa30e561395a.png)
 
 # **_Graph of all I/O pins_** 
 
