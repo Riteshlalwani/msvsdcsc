@@ -213,7 +213,7 @@ This circuit consists of FLASH ADC, made through comparators and resistors, incl
 # **_Graph of all I/O pins_** 
 
 
-![Screenshot from 2023-02-28 00-34-15](https://user-images.githubusercontent.com/110079763/221763747-0bb58bed-4313-4863-a19a-5424c02276fb.png)
+![Screenshot from 2023-03-01 04-50-15](https://user-images.githubusercontent.com/110079763/222152167-df91bf31-411c-49bd-af95-bb4b1bf35861.png)
 
 
 ## Acknowledgments
