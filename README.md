@@ -27,7 +27,7 @@ Also called the parallel A/D converter, this circuit is the simplest to understa
 
 Vref is a stable reference voltage provided by a precision voltage regulator as part of the converter circuit, not shown in the schematic. As the analog input voltage exceeds the reference voltage at each comparator, the comparator outputs will sequentially saturate to a high state. The priority encoder generates a binary number based on the highest-order active input, ignoring all other active inputs.
 
-The calculation for eg. an input of 3.70 V with Vref = 5 V:
+The calculation for eg. an input of 0.8 V with Vref = 1.1 V:
 
 The input lies in the range (these voltages can be found by voltage divider calculations) 5/8 * Vref and 6/8 * Vref which would make the output of the 5th comparator high which would give the corresponding input to priority encoder which would give the output 101 (5).
 
@@ -54,6 +54,9 @@ The input lies in the range (these voltages can be found by voltage divider calc
 ![Screenshot from 2023-02-17 02-51-50](https://user-images.githubusercontent.com/110079763/219593405-0426fc63-c571-4b02-99c0-5e59b6a50953.png)
 
 ## **_PIPO (parallel in parallel out)_**
+
+Parallel In Parallel Out (PIPO) shift registers are the type of storage devices in which both data loading as well as data retrieval processes occur in parallel mode.
+
 ![pipo](https://user-images.githubusercontent.com/110079763/220256234-422ee408-9109-4678-9ef4-4e260fc84fe8.png)
 The LCD interfacing circuit is a circuit designed in verilog to transfer the input on its terminal to a LCD (16x2 as shown in the figure) on every register select operation.
 # D flipflop Schematic
@@ -89,6 +92,96 @@ The LCD interfacing circuit is a circuit designed in verilog to transfer the inp
 # Priority Encoder simulation using verilog code and testbench
 
 ![priority encoder output](https://user-images.githubusercontent.com/110079763/220256036-72e8dfcd-876f-4d8e-b60c-962bce23d689.png)
+## **_Verilog codes for designing digital blocks_**
+1)Priority Encoder
+
+```
+module krunal_priority(i,d);
+  // declare
+input [7:0] i;
+  // store and declare output values
+  output [2:0] d;
+  reg [2:0] y;
+  always @(i)
+  begin
+   
+        // priority encoder
+        // if condition to chose 
+        // output based on priority. 
+        if(i[7]==1) y=3'b111;
+        else if(i[6]==1) y=3'b110;
+        else if(i[5]==1) y=3'b101;
+        else if(i[4]==1) y=3'b100;
+        else if(i[3]==1) y=3'b011;
+        else if(i[2]==1) y=3'b010;
+        else if(i[1]==1) y=3'b001;
+        else
+        y=3'b000;
+     
+   
+  end
+assign d = y;
+endmodule
+```
+2) PIPO register
+```
+module krunal_pipo(clk,a,q);
+input clk;
+input[2:0]a;
+output[2:0]q;
+reg[2:0]q;
+always@(posedge clk)
+begin
+q<=a;
+end
+endmodule
+```
+3) LCD interfacing circuit
+```
+module lcd_2(
+    clk,
+  din,din1,din2,
+  output reg rs, rw,
+  output reg dout
+    );
+
+input reg clk;
+input din;
+input din1;
+input din2; 
+
+integer  i = 0;
+ 
+reg [2:0] data = 0 ;
+
+
+
+always@(posedge clk)
+begin
+data[0]  <= din; 
+data[1] <= din1; 
+data[2] <= din2; 
+   
+   if(i <= 2)
+   begin
+    rs   <= 1'b1;
+    rw   <= 1'b0; 
+    dout <= data[i];
+    i <= i + 1; 
+   end
+ 	else
+   begin
+   i <= 0;
+   rs    <= 1'b0;
+   rw    <= 1'b0;
+   dout  <= 1'b0;
+   end
+	
+end
+ 
+
+endmodule
+```
 
 ## **_Complete crack sensing Circuit and Simulation results_**
 
