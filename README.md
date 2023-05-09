@@ -14,7 +14,7 @@ Any crack in a structure changes the strain profile of the material underneath. 
     - [FLASH ADC Circuit](https://github.com/Riteshlalwani/msvsdcsc#flash-adc-circuit)
     - [Output Graphs](https://github.com/Riteshlalwani/msvsdcsc#output-graphs)
     - [For comparator](https://github.com/Riteshlalwani/msvsdcsc#for-comparator)
--[PIPO (parallel in parallel out)](https://github.com/Riteshlalwani/msvsdcsc#pipo-parallel-in-parallel-out)
+- [PIPO (parallel in parallel out)](https://github.com/Riteshlalwani/msvsdcsc#pipo-parallel-in-parallel-out)
    - [D flipflop Schematic](https://github.com/Riteshlalwani/msvsdcsc#d-flipflop-schematic)
    - [PIPO Schematic](https://github.com/Riteshlalwani/msvsdcsc#pipo-schematic)
    - [Output for 1 D Flip FLop](https://github.com/Riteshlalwani/msvsdcsc#output-for-1-d-flip-flop)
