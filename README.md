@@ -10,7 +10,7 @@ Any crack in a structure changes the strain profile of the material underneath. 
 # **_INDEX:_**
 - [The Implementation Overview](https://github.com/Riteshlalwani/msvsdcsc#the-implementation-overview)
 
-## **The Implementation Overview**
+# **The Implementation Overview**
 ---
 This circuit is implemented using the following 5 stages:-
 
@@ -20,9 +20,10 @@ This circuit is implemented using the following 5 stages:-
 4. A PIPO to send data from the encoder to lcd every clock cycle
 5. LCD interfacing circuit to display the data on a LCD
 
-## **_FLASH ADC and PRIORITY ENCODER_**
----
+## **FLASH ADC and PRIORITY ENCODER**
+
 Also called the parallel A/D converter, this circuit is the simplest to understand. It is formed of a series of comparators, each one comparing the input signal to a unique reference voltage. The comparator outputs connect to the inputs of a priority encoder circuit, which then produces a binary output. The following figure shows a 3-bit flash ADC circuit:
+![flashadc](https://github.com/Riteshlalwani/msvsdcsc/assets/110079763/7ffac8ec-daaa-4749-9e5d-94f1a8b91849)
 
 
 
