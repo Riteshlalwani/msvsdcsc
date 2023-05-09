@@ -9,7 +9,8 @@ Any crack in a structure changes the strain profile of the material underneath. 
 ![Screenshot from 2023-02-27 11-52-27](https://user-images.githubusercontent.com/110079763/221767338-847a0b31-3456-4fc6-a6b5-7ea279395fcd.png)
 # **_INDEX:_**
 - [The Implementation Overview](https://github.com/Riteshlalwani/msvsdcsc#the-implementation-overview)
-
+  - [FLASH ADC and PRIORITY ENCODER](https://github.com/Riteshlalwani/msvsdcsc#flash-adc-and-priority-encoder)
+   -[avsdcmp IP in cadence (Schematic)](https://github.com/Riteshlalwani/msvsdcsc#avsdcmp-ip-in-cadence-schematic)
 # **The Implementation Overview**
 ---
 This circuit is implemented using the following 5 stages:-
