@@ -29,7 +29,9 @@ Any crack in a structure changes the strain profile of the material underneath. 
    - [Integrated CSC Schematic](https://github.com/Riteshlalwani/msvsdcsc#integrated-csc-schematic)
    - [Output Graphs (Giving the desired 101 output)](https://github.com/Riteshlalwani/msvsdcsc#output-graphs-giving-the-desired-101-output)
    - [Graph of all I/O pins](https://github.com/Riteshlalwani/msvsdcsc#graph-of-all-io-pins)
-- [Layout of the CSC Circuit]
+- [Layout of the CSC Circuit](https://github.com/Riteshlalwani/msvsdcsc#layout-of-the-csc-circuit)
+- [Acknowledgments](https://github.com/Riteshlalwani/msvsdcsc#acknowledgments)
+- [References](https://github.com/Riteshlalwani/msvsdcsc#references)
 
 # **The Implementation Overview**
 ---
