@@ -7,9 +7,10 @@
 Any crack in a structure changes the strain profile of the material underneath. In situations like a boiler or a jet engine this can be critical. This strain can be detected using a strain gauge i.e. a device which changes its electrical resistance which change in strain. So if such a variable resistor is placed in a voltage divider/wheatstone bridge we can get different voltage levels for different strains detected. This change in voltage can be sensed by a Mixed signal SoC as discussed in this design.
 
 ![Screenshot from 2023-02-27 11-52-27](https://user-images.githubusercontent.com/110079763/221767338-847a0b31-3456-4fc6-a6b5-7ea279395fcd.png)
+# **_INDEX:_**
 
 
-## **_The Implementation_**
+## **The Implementation Overview**
 ---
 This circuit is implemented using the following 5 stages:-
 
