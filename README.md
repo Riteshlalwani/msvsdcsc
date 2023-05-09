@@ -10,7 +10,10 @@ Any crack in a structure changes the strain profile of the material underneath. 
 # **_INDEX:_**
 - [The Implementation Overview](https://github.com/Riteshlalwani/msvsdcsc#the-implementation-overview)
   - [FLASH ADC and PRIORITY ENCODER](https://github.com/Riteshlalwani/msvsdcsc#flash-adc-and-priority-encoder)
-   -[avsdcmp IP in cadence (Schematic)](https://github.com/Riteshlalwani/msvsdcsc#avsdcmp-ip-in-cadence-schematic)
+    - [avsdcmp IP in cadence (Schematic)](https://github.com/Riteshlalwani/msvsdcsc#avsdcmp-ip-in-cadence-schematic)
+    - [FLASH ADC Circuit](https://github.com/Riteshlalwani/msvsdcsc#flash-adc-circuit)
+    - [Output Graphs](https://github.com/Riteshlalwani/msvsdcsc#output-graphs)
+    - [For comparator](https://github.com/Riteshlalwani/msvsdcsc#for-comparator)
 # **The Implementation Overview**
 ---
 This circuit is implemented using the following 5 stages:-
@@ -53,15 +56,15 @@ An N-bit flash ADC consists of 2 powered N-1 comparators and contains 2 powered 
 
 ![flash ADC1](https://user-images.githubusercontent.com/110079763/219593268-b121345c-89ae-40a7-acfd-88bfa46ed7f8.png)
 
-# **_Output Graphs_**
+### **Output Graphs**
 
 ![Screenshot from 2023-02-20 14-36-41](https://user-images.githubusercontent.com/110079763/220255798-33b516a1-d923-437e-a4d1-78e04f78d2ae.png)
 
-# For comparator
+### **For comparator**
 
 ![Screenshot from 2023-02-17 02-51-50](https://user-images.githubusercontent.com/110079763/219593405-0426fc63-c571-4b02-99c0-5e59b6a50953.png)
 
-## **_PIPO (parallel in parallel out)_**
+# **PIPO (parallel in parallel out)**
 
 Parallel In Parallel Out (PIPO) shift registers are the type of storage devices in which both data loading as well as data retrieval processes occur in parallel mode.
 A shift register is one type of sequential logic circuit where its output mainly depends on its input & previous output. This register includes a set of Flip Flops where these are connected within cascade which means, one FF output is simply connected to the input of another FF. This register is used to store as well as shift the group of binary data. The number of FFs available within the shift register mainly depends on the no. of binary bits stored within the register. 
