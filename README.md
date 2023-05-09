@@ -18,6 +18,11 @@ Any crack in a structure changes the strain profile of the material underneath. 
    - [D flipflop Schematic](https://github.com/Riteshlalwani/msvsdcsc#d-flipflop-schematic)
    - [PIPO Schematic](https://github.com/Riteshlalwani/msvsdcsc#pipo-schematic)
    - [Output for 1 D Flip FLop](https://github.com/Riteshlalwani/msvsdcsc#output-for-1-d-flip-flop)
+- [Priority Encoder](https://github.com/Riteshlalwani/msvsdcsc#priority-encoder)
+   - [Q0 output bit Schematic for 8:3 Priority Encoder](https://github.com/Riteshlalwani/msvsdcsc#q0-output-bit-schematic-for-83-priority-encoder)
+   - [Complete Circuit Schematic for priority Encoder](https://github.com/Riteshlalwani/msvsdcsc#complete-circuit-schematic-for-priority-encoder)
+   - [Output(for input I5,I4,I3,I2,I1 = 1 )](https://github.com/Riteshlalwani/msvsdcsc#outputfor-input-i5i4i3i2i1--1-)
+
 # **The Implementation Overview**
 ---
 This circuit is implemented using the following 5 stages:-
