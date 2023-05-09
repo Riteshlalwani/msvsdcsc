@@ -22,6 +22,7 @@ Any crack in a structure changes the strain profile of the material underneath. 
    - [Q0 output bit Schematic for 8:3 Priority Encoder](https://github.com/Riteshlalwani/msvsdcsc#q0-output-bit-schematic-for-83-priority-encoder)
    - [Complete Circuit Schematic for priority Encoder](https://github.com/Riteshlalwani/msvsdcsc#complete-circuit-schematic-for-priority-encoder)
    - [Output(for input I5,I4,I3,I2,I1 = 1 )](https://github.com/Riteshlalwani/msvsdcsc#outputfor-input-i5i4i3i2i1--1-)
+   - [Priority Encoder simulation using verilog code and testbench](https://github.com/Riteshlalwani/msvsdcsc#priority-encoder-simulation-using-verilog-code-and-testbench)
 
 # **The Implementation Overview**
 ---
@@ -115,7 +116,7 @@ A priority encoder is a circuit or algorithm that compresses multiple binary inp
 
 ![Screenshot from 2023-02-22 15-21-11](https://user-images.githubusercontent.com/110079763/221664644-82764a95-d2c1-48ff-bb44-26f7f0687cfd.png)
 
-# Priority Encoder simulation using verilog code and testbench
+## **Priority Encoder simulation using verilog code and testbench**
 
 ![priority encoder output](https://user-images.githubusercontent.com/110079763/220256036-72e8dfcd-876f-4d8e-b60c-962bce23d689.png)
 
@@ -212,7 +213,7 @@ endmodule
 
 ## **_Complete crack sensing Circuit and Simulation results_**
 
-# Black Box for CSC (7-I/O pins except Power rails )
+# Black Box for CSC (7-I/O pins except Vdd & gnd )
 
 ![Screenshot from 2023-02-27 11-52-27](https://user-images.githubusercontent.com/110079763/221665930-b21d56f2-1087-4dc3-9550-5e20551d5c54.png)
 
