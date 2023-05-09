@@ -35,7 +35,7 @@ The input lies in the range (these voltages can be found by voltage divider calc
 
 ## **FLASH ADC Circuit and its parts**
 
-#### **avsdcmp IP in cadence (Schematic)**
+### **avsdcmp IP in cadence (Schematic)**
 
 comparator circuit compares two voltages and outputs either a 1 (the voltage at the plus side) or a 0 (the voltage at the negative side) to indicate which is larger. Comparators are often used, for example, to check whether an input has reached some predetermined value.
 
@@ -43,7 +43,7 @@ comparator circuit compares two voltages and outputs either a 1 (the voltage at 
 
 
 
-#### **FLASH ADC Circuit**
+### **FLASH ADC Circuit**
 Flash analog to digital converter is the fastest type of ADC among all the other ADCs. It is also known as a parallel analog to digital converter. It comprises high-speed comparators, resistive voltage divider circuits along with a priority encoder.
 
 An N-bit flash ADC consists of 2 powered N-1 comparators and contains 2 powered N number of matched resistors.
