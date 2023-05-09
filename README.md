@@ -23,6 +23,12 @@ Any crack in a structure changes the strain profile of the material underneath. 
    - [Complete Circuit Schematic for priority Encoder](https://github.com/Riteshlalwani/msvsdcsc#complete-circuit-schematic-for-priority-encoder)
    - [Output(for input I5,I4,I3,I2,I1 = 1 )](https://github.com/Riteshlalwani/msvsdcsc#outputfor-input-i5i4i3i2i1--1-)
    - [Priority Encoder simulation using verilog code and testbench](https://github.com/Riteshlalwani/msvsdcsc#priority-encoder-simulation-using-verilog-code-and-testbench)
+- [Verilog codes for designing digital blocks](https://github.com/Riteshlalwani/msvsdcsc#verilog-codes-for-designing-digital-blocks)
+- [Complete crack sensing Circuit and Simulation results](https://github.com/Riteshlalwani/msvsdcsc#complete-crack-sensing-circuit-and-simulation-results)
+   - [Black Box for CSC (7-I/O pins except Vdd & gnd)](https://github.com/Riteshlalwani/msvsdcsc#black-box-for-csc-7-io-pins-except-vdd--gnd-)
+   - [Integrated CSC Schematic](https://github.com/Riteshlalwani/msvsdcsc#integrated-csc-schematic)
+   - [Output Graphs (Giving the desired 101 output)](https://github.com/Riteshlalwani/msvsdcsc#output-graphs-giving-the-desired-101-output)
+   - [Graph of all I/O pins](https://github.com/Riteshlalwani/msvsdcsc#graph-of-all-io-pins)
 
 # **The Implementation Overview**
 ---
@@ -211,29 +217,29 @@ end
 endmodule
 ```
 
-## **_Complete crack sensing Circuit and Simulation results_**
+# **Complete crack sensing Circuit and Simulation results**
 
-# Black Box for CSC (7-I/O pins except Vdd & gnd )
+## **Black Box for CSC (7-I/O pins except Vdd & gnd)**
 
 ![Screenshot from 2023-02-27 11-52-27](https://user-images.githubusercontent.com/110079763/221665930-b21d56f2-1087-4dc3-9550-5e20551d5c54.png)
 
-# Integrated CSC Schematic 
+## **Integrated CSC Schematic** 
 
 This circuit consists of FLASH ADC, made through comparators and resistors, including a 8:3 priority encoder and a PIPO circuit(made using 3 D flip-flops).
  
 ![Screenshot from 2023-02-27 11-30-39](https://user-images.githubusercontent.com/110079763/221666080-05d5643d-636d-4d57-8376-2f9d1afd28af.png)
 
-# Output Graphs (Giving the desired 101 output)
+## **Output Graphs (Giving the desired 101 output)**
 
 ![Screenshot from 2023-03-01 04-55-19](https://user-images.githubusercontent.com/110079763/222179912-54ca819a-5f4a-4911-b758-aa30e561395a.png)
 
-# **_Graph of all I/O pins_** 
+## **Graph of all I/O pins** 
 
 
 ![Screenshot from 2023-03-01 04-50-15](https://user-images.githubusercontent.com/110079763/222152167-df91bf31-411c-49bd-af95-bb4b1bf35861.png)
 
 
-## Acknowledgments
+# **Acknowledgments**
 
 
 - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
@@ -247,6 +253,6 @@ This circuit consists of FLASH ADC, made through comparators and resistors, incl
 - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
 
 ```
-# *References*
+# **References**
 
 - https://github.com/krunalbadlani/crack_sensing_circuit
