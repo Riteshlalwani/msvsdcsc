@@ -29,6 +29,7 @@ Any crack in a structure changes the strain profile of the material underneath. 
    - [Integrated CSC Schematic](https://github.com/Riteshlalwani/msvsdcsc#integrated-csc-schematic)
    - [Output Graphs (Giving the desired 101 output)](https://github.com/Riteshlalwani/msvsdcsc#output-graphs-giving-the-desired-101-output)
    - [Graph of all I/O pins](https://github.com/Riteshlalwani/msvsdcsc#graph-of-all-io-pins)
+- [Layout of the CSC Circuit]
 
 # **The Implementation Overview**
 ---
@@ -237,6 +238,10 @@ This circuit consists of FLASH ADC, made through comparators and resistors, incl
 
 
 ![Screenshot from 2023-03-01 04-50-15](https://user-images.githubusercontent.com/110079763/222152167-df91bf31-411c-49bd-af95-bb4b1bf35861.png)
+
+# **Layout of the CSC Circuit**
+
+![LAYOUT_W3 (1)](https://github.com/Riteshlalwani/msvsdcsc/assets/110079763/c69cee9f-e340-4e1b-ac4d-791b7d4ba07c)
 
 
 # **Acknowledgments**
