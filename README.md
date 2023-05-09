@@ -14,6 +14,10 @@ Any crack in a structure changes the strain profile of the material underneath. 
     - [FLASH ADC Circuit](https://github.com/Riteshlalwani/msvsdcsc#flash-adc-circuit)
     - [Output Graphs](https://github.com/Riteshlalwani/msvsdcsc#output-graphs)
     - [For comparator](https://github.com/Riteshlalwani/msvsdcsc#for-comparator)
+-[PIPO (parallel in parallel out)](https://github.com/Riteshlalwani/msvsdcsc#pipo-parallel-in-parallel-out)
+   - [D flipflop Schematic](https://github.com/Riteshlalwani/msvsdcsc#d-flipflop-schematic)
+   - [PIPO Schematic](https://github.com/Riteshlalwani/msvsdcsc#pipo-schematic)
+   - [Output for 1 D Flip FLop](https://github.com/Riteshlalwani/msvsdcsc#output-for-1-d-flip-flop)
 # **The Implementation Overview**
 ---
 This circuit is implemented using the following 5 stages:-
@@ -72,21 +76,21 @@ Here we are implementing a 3 bit PIPO.
 
 ![pipo](https://user-images.githubusercontent.com/110079763/220256234-422ee408-9109-4678-9ef4-4e260fc84fe8.png)
 The LCD interfacing circuit is a circuit designed in verilog to transfer the input on its terminal to a LCD (16x2 as shown in the figure) on every register select operation.
-# D flipflop Schematic
+## **D flipflop Schematic**
 
 ![Screenshot from 2023-02-16 14-11-13](https://user-images.githubusercontent.com/110079763/219593075-f04f1cba-3db7-4a38-a4e7-eefa5ecab4fa.png)
 
-# PIPO Schematic
+## **PIPO Schematic**
 
 ![Screenshot from 2023-02-16 14-09-33](https://user-images.githubusercontent.com/110079763/219592872-5b1181ea-f77d-40d1-8d96-b5546b561ead.png)
 
-# Output for 1 D Flip FLop
+### **Output for 1 D Flip FLop**
 
 A D (or Delay) Flip Flop (Figure 1) is a digital electronic circuit used to delay the change of state of its output signal (Q) until the next rising edge of a clock timing input signal occurs. Since the output remains constant unless deliberately changed by altering the state of the D input followed by a rising clock signal.
 
 ![Screenshot from 2023-02-16 12-01-59](https://user-images.githubusercontent.com/110079763/219592929-9941336b-de69-4585-9475-6434666f687f.png)
 
-## **_Priority Encoder_**
+# **Priority Encoder**
 
 A priority encoder is a circuit or algorithm that compresses multiple binary inputs into a smaller number of outputs. The output of a priority encoder is the binary representation of the index of the most significant activated line, starting from zero. They are often used to control interrupt requests by acting on the highest priority interrupt input.
 
@@ -94,22 +98,23 @@ A priority encoder is a circuit or algorithm that compresses multiple binary inp
 
 ![logic](https://user-images.githubusercontent.com/110079763/221665277-37dc56bf-17af-4768-9cd1-661bf6d748c9.png)
 
-# Q0 output bit Schematic for 8:3 Priority Encoder
+## **Q0 output bit Schematic for 8:3 Priority Encoder**
 
 ![Screenshot from 2023-02-22 14-37-02](https://user-images.githubusercontent.com/110079763/221664273-e6d4036e-c1a9-45ab-8106-addaa1218cdc.png)
 
-# Complete Circuit Schematic for priority Encoder
+## **Complete Circuit Schematic for priority Encoder**
 
 ![Screenshot from 2023-02-22 15-21-34](https://user-images.githubusercontent.com/110079763/221664349-f0d41a8c-6aa3-4f46-8858-a07181b069d3.png)
 
-# Output(for input I5,I4,I3,I2,I1 = 1 )
+## **Output(for input I5,I4,I3,I2,I1 = 1 )**
 
 ![Screenshot from 2023-02-22 15-21-11](https://user-images.githubusercontent.com/110079763/221664644-82764a95-d2c1-48ff-bb44-26f7f0687cfd.png)
 
 # Priority Encoder simulation using verilog code and testbench
 
 ![priority encoder output](https://user-images.githubusercontent.com/110079763/220256036-72e8dfcd-876f-4d8e-b60c-962bce23d689.png)
-## **_Verilog codes for designing digital blocks_**
+
+# **Verilog codes for designing digital blocks**
 1)Priority Encoder
 
 ```
