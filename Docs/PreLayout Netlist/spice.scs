@@ -1,0 +1,110 @@
+// Generated for: spectre
+// Generated on: May 10 02:13:58 2023
+// Design library name: Ritesh
+// Design cell name: csc_full
+// Design view name: physConfig
+simulator lang=spectre
+global 0
+include "/mnt/cadence_tools/gpdk045_v_6_0/gpdk045/../models/spectre/gpdk045.scs" section=mc
+
+// Library name: Ritesh
+// Cell name: camp
+// View name: schematic
+// Inherited view list: physConfig schematic symbol
+subckt camp EN GND INN INP Vdd Vout
+ends camp
+// End of subcircuit definition.
+
+// Library name: Ritesh
+// Cell name: OR_Gate
+// View name: schematic
+// Inherited view list: physConfig schematic symbol
+subckt OR_Gate A B GND Vdd Vout
+ends OR_Gate
+// End of subcircuit definition.
+
+// Library name: Ritesh
+// Cell name: AND_Gate
+// View name: schematic
+// Inherited view list: physConfig schematic symbol
+subckt AND_Gate A B GND Vdd Vout
+ends AND_Gate
+// End of subcircuit definition.
+
+// Library name: Ritesh
+// Cell name: Priority_encoder
+// View name: schematic
+// Inherited view list: physConfig schematic symbol
+subckt Priority_encoder D1 D2 D3 D4 D5 D6 D7 GND Q0 Q1 Q2 Vdd
+    I31 (D4 D5 GND Vdd net23) OR_Gate
+    I30 (D6 D7 GND Vdd net24) OR_Gate
+    I29 (net23 net24 GND Vdd Q2) OR_Gate
+    I24 (D2 D3 GND Vdd net12) OR_Gate
+    I23 (net15 D6 GND Vdd net17) OR_Gate
+    I22 (net17 D7 GND Vdd Q1) OR_Gate
+    I2 (net10 net9 GND Vdd net6) OR_Gate
+    I1 (net6 D5 GND Vdd net5) OR_Gate
+    I0 (net1 D7 GND Vdd Q0) OR_Gate
+    I26 (net3 net7 GND Vdd net13) AND_Gate
+    I25 (net12 net13 GND Vdd net15) AND_Gate
+    I7 (net19 net18 GND Vdd net16) AND_Gate
+    I6 (net16 D1 GND Vdd net9) AND_Gate
+    I4 (net5 net14 GND Vdd net1) AND_Gate
+    I5 (D3 net11 GND Vdd net10) AND_Gate
+ends Priority_encoder
+// End of subcircuit definition.
+
+// Library name: Ritesh
+// Cell name: tristate_inv
+// View name: schematic
+// Inherited view list: physConfig schematic symbol
+subckt tristate_inv GND Vdd Vin Vout clk clkbar
+ends tristate_inv
+// End of subcircuit definition.
+
+// Library name: Ritesh
+// Cell name: ms_dff
+// View name: schematic
+// Inherited view list: physConfig schematic symbol
+subckt ms_dff D GND Q Qbar Vdd clk clkbar
+    I13 (GND Vdd net7 net1 clkbar clk) tristate_inv
+    I12 (GND Vdd net6 net12 clk clkbar) tristate_inv
+ends ms_dff
+// End of subcircuit definition.
+
+// Library name: Ritesh
+// Cell name: PIPO
+// View name: schematic
+// Inherited view list: physConfig schematic symbol
+subckt PIPO D0 D1 D2 GND Q0 Q1 Q2 Vdd clk clkbar
+    I2 (D2 GND Q2 net3 Vdd clk clkbar) ms_dff
+    I1 (D1 GND Q1 net2 Vdd clk clkbar) ms_dff
+    I0 (D0 GND Q0 net1 Vdd clk clkbar) ms_dff
+ends PIPO
+// End of subcircuit definition.
+
+// Library name: Ritesh
+// Cell name: csc_full
+// View name: schematic
+// Inherited view list: physConfig schematic symbol
+I12 (EN GND Vref Vin Vdd net10) camp
+I14 (EN GND net1 Vin Vdd net15) camp
+I15 (EN GND net2 Vin Vdd net11) camp
+I16 (EN GND net3 Vin Vdd net16) camp
+I17 (EN GND net4 Vin Vdd net17) camp
+I18 (EN GND net5 Vin Vdd net8) camp
+I19 (EN GND net6 Vin Vdd net9) camp
+I0 (net9 net8 net17 net16 net11 net15 net10 GND net12 net14 net13 Vdd) \
+        Priority_encoder
+I1 (net12 net14 net13 GND Q0 Q1 Q2 Vdd clk net7) PIPO
+simulatorOptions options psfversion="1.4.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub
