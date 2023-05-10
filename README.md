@@ -250,7 +250,8 @@ This circuit consists of FLASH ADC, made through comparators and resistors, incl
 ## **Area of Layout**
 This area is in µm^2.
 
-![layout area](https://github.com/Riteshlalwani/msvsdcsc/assets/110079763/a442abda-5737-41a8-b2ae-d6874ae0cf07)
+![layout area](https://github.com/Riteshlalwani/msvsdcsc/assets/110079763/8539532e-6ad3-42fd-a810-d03cde1d9a58)
+
 
 # **Future Work**
 - Post Layout Simulations needs to be performed. 
