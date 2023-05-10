@@ -244,10 +244,17 @@ This circuit consists of FLASH ADC, made through comparators and resistors, incl
 # **Layout of the CSC Circuit**
 
 ![LAYOUT_W3 (1)](https://github.com/Riteshlalwani/msvsdcsc/assets/110079763/c69cee9f-e340-4e1b-ac4d-791b7d4ba07c)
+![LAYOUT_W2_zoomed2](https://github.com/Riteshlalwani/msvsdcsc/assets/110079763/82125d44-463c-4dbb-a385-33f6fe91419e)
+![LAYOUT_W2_zoomed1](https://github.com/Riteshlalwani/msvsdcsc/assets/110079763/bdffb486-56c5-432e-a083-05882dc9dcde)
+
+## **Area of Layout**
+This area is in µm^2.
+
+![layout area](https://github.com/Riteshlalwani/msvsdcsc/assets/110079763/a442abda-5737-41a8-b2ae-d6874ae0cf07)
 
 # **Future Work**
 - Post Layout Simulations needs to be performed. 
-- Output Waveforms of Post Layout Simulation with Post Schematic Waveforms needs to be same.
+- Output Waveforms of Post Layout Simulation with Post Schematic Waveforms needs to be match.
 # **Acknowledgments**
 
 
