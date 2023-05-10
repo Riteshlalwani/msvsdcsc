@@ -46,7 +46,9 @@ This circuit is implemented using the following 5 stages:-
 ## **FLASH ADC and PRIORITY ENCODER**
 
 Also called the parallel A/D converter, this circuit is the simplest to understand. It is formed of a series of comparators, each one comparing the input signal to a unique reference voltage. The comparator outputs connect to the inputs of a priority encoder circuit, which then produces a binary output. The following figure shows a 3-bit flash ADC circuit:
-![flashadc](https://github.com/Riteshlalwani/msvsdcsc/assets/110079763/7ffac8ec-daaa-4749-9e5d-94f1a8b91849)
+
+![flashadc](https://github.com/Riteshlalwani/msvsdcsc/assets/110079763/01d1d045-683e-4442-abda-0d8803e8debf)
+
 
 
 
@@ -243,9 +245,12 @@ This circuit consists of FLASH ADC, made through comparators and resistors, incl
 
 # **Layout of the CSC Circuit**
 
-![LAYOUT_W3 (1)](https://github.com/Riteshlalwani/msvsdcsc/assets/110079763/c69cee9f-e340-4e1b-ac4d-791b7d4ba07c)
-![LAYOUT_W2_zoomed2](https://github.com/Riteshlalwani/msvsdcsc/assets/110079763/82125d44-463c-4dbb-a385-33f6fe91419e)
-![LAYOUT_W2_zoomed1](https://github.com/Riteshlalwani/msvsdcsc/assets/110079763/bdffb486-56c5-432e-a083-05882dc9dcde)
+![LAYOUT_W3 (1)](https://github.com/Riteshlalwani/msvsdcsc/assets/110079763/949cb808-d529-4171-bad7-9153adb5072f)
+
+![LAYOUT_W2_zoomed2](https://github.com/Riteshlalwani/msvsdcsc/assets/110079763/850857b0-3a69-44e6-ba6a-112467751d07)
+
+![LAYOUT_W2_zoomed1](https://github.com/Riteshlalwani/msvsdcsc/assets/110079763/54a9902e-014a-4095-b17c-1440fd49dc9d)
+
 
 ## **Area of Layout**
 This area is in µm^2.
