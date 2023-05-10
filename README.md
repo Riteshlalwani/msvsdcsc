@@ -245,7 +245,9 @@ This circuit consists of FLASH ADC, made through comparators and resistors, incl
 
 ![LAYOUT_W3 (1)](https://github.com/Riteshlalwani/msvsdcsc/assets/110079763/c69cee9f-e340-4e1b-ac4d-791b7d4ba07c)
 
-
+# **Future Work**
+- Post Layout Simulations needs to be performed. 
+- Output Waveforms of Post Layout Simulation with Post Schematic Waveforms needs to be same.
 # **Acknowledgments**
 
 
